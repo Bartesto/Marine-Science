@@ -23,7 +23,7 @@ find_url <- function(x){
 ## be updated along with station choice as below)
 vsl <- read.table("virtual_stations_list.txt", colClasses = "character")
 
-## CURRENT VIRUAL STATION CHOICES
+## CURRENT VIRTUAL STATION CHOICES
 ## "MontgomeryReef"
 ## "RowleyShoals"
 ## "EightyMileBeach"
