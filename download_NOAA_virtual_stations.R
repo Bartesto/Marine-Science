@@ -5,6 +5,11 @@
 ## Clear working environment of variables
 rm(list=ls())
 
+## Set your working environment. Copy and paste your filepath. Either 
+## change the single back slash to two or swap the backslashes to forward 
+## slashes in the filepath.
+setwd("your file path goes here")
+
 ## Create folder for downloaded data
 if(!file.exists("data")){ dir.create("data")}
 
